@@ -1,0 +1,6 @@
+the required links are as follows : 
+1-to fetch all the tasks use : get localhost:3900/api/tasks
+2-to search for a task use : get localhost:3900/api/tasks?searchKey=(title or description)&searchValue=(value)
+3- to add a task use : post localhost:3900/api/tasks
+4- to update a task : put localhost:3900/api/tasks/(the id of the task)
+5-to delete a task : delete localhost:3900/api/tasks/(the id of the task)
